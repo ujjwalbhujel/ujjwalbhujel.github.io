@@ -1,0 +1,479 @@
+/* DEFAULT STYLE STARTS */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+	display: block;
+}
+p {
+	line-height: 25px;
+}
+/* DEFAULT STYLE ENDS */
+
+
+/* TOP NAV AND LOGO STYLE */
+.header {
+	width: 100%;
+	background-color: #ffb54c;
+}
+.header .top-nav {
+	margin: 0px auto;
+	width: 1060px;
+	padding: 10px 0px;
+
+}
+.header .top-nav h2 a {
+	color: #fff;
+}
+.header .top-nav h2 a span {
+	color: #000;
+}
+
+
+/* STYLE FOR HEADER */
+.head-wrap {
+	width: 1060px;
+	margin: 0px auto;
+	padding: 30px 0px 15px 0px;
+}
+.head-wrap ul.breadcrumb {
+	margin: 0px;
+	padding: 0px;
+}
+.head-wrap ul.breadcrumb li {
+	list-style: none;
+	float: left;
+}
+.head-wrap ul.breadcrumb li a {
+	color: #999;
+	font-style: italic;
+	font-size: 10px;
+	padding-right: 5px;
+	text-align: center
+}
+.head-wrap ul.breadcrumb li a::after {
+	content: " >";
+}
+.head-wrap ul.breadcrumb li:last-child a::after {
+	content: "";
+}
+.head-wrap ul.breadcrumb li:last-child a:hover {
+	cursor: default;
+}
+.head-wrap h1 {
+	font-size: 45px;
+	margin-top:15px;
+	clear: both;
+}
+.head-wrap ul.tags-pill {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+.head-wrap ul.tags-pill li {
+	list-style: none;
+	float: left;
+	display:block;
+	margin-right: 5px;
+}
+.head-wrap ul.tags-pill li a {
+	display: inline-block;
+	background-color: #eee;
+	padding: 2px 10px;
+	font-size: 10px;
+	color:#333;
+	border-radius:100px;
+}
+.head-wrap ul.tags-pill li a:hover {
+	background-color: #ffb54c;
+}
+
+
+/* STYLE FOR MAIN CONTAINER STARTS */
+.container-wrap {
+	width: 1060px;
+	margin: 0px auto;
+	margin-top: 25px;
+}
+.container-hero {
+	width: 800px;
+	float: left;
+}
+.container-main {
+	margin-top: 20px;
+}
+
+/* Styles for content left */
+.container-main .content-left {
+	width: 250px;
+	float: left;
+}
+.container-main .content-left div.promo {
+	width: 235px;
+	height: 127px;
+	background-image: url("../images/promo-bg.png");
+	background-repeat: no-repeat;
+	background-size: 250px 127;
+	padding: 15px 0px 0px 15px;
+}
+.container-main .content-left div.promo h2 {
+	font-size: 28px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+.container-main .content-left div.promo a {
+	color: #000;
+	margin-top: 15px;
+	font-size: 10px;
+}
+.container-main .content-left .profile-picture {
+	border-radius: 100px;
+	margin-top: 20px;
+}
+.container-main .content-left h2 {
+	font-size: 16px;
+}
+.container-main .content-left h4 {
+	font-size: 10px;
+}
+.container-main .content-left .date-time {
+	font-size: 12px;
+	color: #999;
+	display: block;
+	margin-top: 20px;
+}
+.container-main .content-left .date-time span {
+	border-top: 1px solid #eee;
+	padding-top: 3px;
+}
+.container-main .content-left .arrow-nav {
+	width: 250px;
+	height: 50px;
+	background-size: 94px 50px;
+	background-image: url("../images/arrow.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 10px 0px;
+}
+
+
+/* STYLE FOR HORIZONTAL BAR */
+.container-main .content-left ul.score-bar-list {
+	margin: 0px;
+	padding: 0px;
+}
+.container-main .content-left ul.score-bar-list li {
+	list-style: none;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	height: 50px;
+	width: 250px;
+}
+.container-main .content-left ul.score-bar-list li a {
+	display: block;
+	font-size: 12px;
+	color: #333;
+}
+.container-main .content-left ul.score-bar-list li a span.score-no {
+	float: right;
+	margin-right: 90px;
+
+}
+.container-main .content-left ul.score-bar-list li div.score-bar {
+	position: absolute;
+	width: 160px;
+	background-color: #eee;
+	height: 5px;
+	margin-left: 0;
+	border-radius: 100px;
+	margin-top: 5px;
+}
+.container-main .content-left ul.score-bar-list li span.progress-bar6 {
+	position: absolute;
+	width: 60%;
+	height: 5px;
+	background-color: #ffb54c;
+	border-radius: 100px;
+}
+.container-main .content-left ul.score-bar-list li span.progress-bar7 {
+	position: absolute;
+	width: 70%;
+	height: 5px;
+	background-color: #ffb54c;
+	border-radius: 100px;
+}
+.container-main .content-left ul.score-bar-list li span.progress-bar8 {
+	position: absolute;
+	width: 80%;
+	height: 5px;
+	background-color: #ffb54c;
+	border-radius: 100px;
+}
+.container-main .content-left div a.more-section {
+	display: block;
+	color: #fff;
+	background-color: #000;
+	padding: 10px;
+	width: 140px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.container-main .content-left div a.more-section i.fa-long-arrow-alt-down {
+	float: right;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+
+/* CONTENT INNER RIGHT */
+.content-inner-right {
+	width: 525px;
+	margin-left: 250px;
+	padding-left: 25px;
+}
+
+/* RATINGS STYLE */
+.content-inner-right ul.rate-strip {
+	margin: 0px;
+	padding: 0px;
+}
+.content-inner-right ul.rate-strip li {
+	list-style: none;
+	display: inline-block;
+	width: 250px;
+	background-color: #eee;
+	text-align: center;
+	border-radius: 2px;
+	padding: 20px 0px;
+	margin-right: 10px;
+}
+.content-inner-right ul.rate-strip li span.ratings-title {
+	display: block;
+	padding: 18px 0px;
+}
+.content-inner-right ul.rate-strip li span.offroad-title {
+	display: block;
+	padding: 37px 0px 18px 0px;
+}
+.content-inner-right ul.rate-strip li div.ratings-star span {
+	color: #ccc;
+}
+.content-inner-right ul.rate-strip li div.ratings-star span.checked
+{
+	color: #ffb54c;
+}
+
+
+
+/* CTA STRIP */
+.cta-strip-wrap {
+	margin-top: 30px;
+}
+.cta-strip-wrap a {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 8px 24px;
+	color: #333;
+	font-size: 10px;
+	margin-right: 3px;
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+.cta-strip-wrap a span {
+	font-size: 18px;
+	color: #df8569;
+	margin-right: 10px;
+}
+
+
+/* MAIN PRODUCT DESCRIPTION STYLES */
+.desc-wrap {
+	margin-top: 50px;
+}
+.desc-wrap div h4 {
+	padding: 20px 0px;
+}
+.desc-wrap div p {
+	padding: 15px 0px;
+	font-size: 14px;
+}
+
+
+/* SIMILAR PRODUCTS' LIST STYLE */
+.similar-product-list-wrap {
+	width: 500px;
+	padding: 0px 25px 25px 25px;
+	background-color: #efefef;
+	border-radius: 2px;
+}
+.product-list-left {
+}
+ul.product-list-col-1 {
+	margin: 0px;
+	padding: 0px;
+	margin-top: -15px;
+	margin-left: 15px;
+	display: inline-block;
+}
+ul.product-list-col-1  li {
+	float: left;
+	list-style: outside;
+	width: 50%;
+}
+	
+ul.product-list-col-1  li a{
+	color: #777;
+	font-size: 8px;;	
+}
+ul.product-list-col-1  li a strong {
+	color: #000;
+}
+
+
+/* PRODCUT PRICE AND FEATURE STYLE */
+.product-price-feature-wrap {
+	width: 500px;
+	margin-top: 40px;
+}
+
+
+/* PRODUCT DESIGN STYLE */
+.product-design-wrap {
+	width: 500px;
+	margin-top: 40px;
+}
+
+
+/* SIDEBAR - LEFT CONTENT */
+.sidebar {
+    margin-left: 815px;
+}
+
+
+/* PRICE BUTTON STYLE */
+.sidebar .price-button-wrap {
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 20px 10px;
+	border-radius: 1px;
+}
+.sidebar .price-button-wrap h4 {
+	color: #000;
+}
+.sidebar .price-button-wrap h3 {
+	color: #7a54cd;
+}
+.sidebar .price-button-wrap p {
+	font-size: 8px;
+	color: grey;
+}
+.sidebar .price-button-wrap a {
+	display: block;
+	text-align: center;
+	background-color: #fb5e57;
+	padding: 15px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+.sidebar .price-button-wrap a span {
+	font-size: 10px;
+}
+.sidebar .price-button-wrap a strong {
+	font-size: 12px;;
+}
+
+
+/* SIMILAR PRODUCTS STYLE */
+.sidebar .similar-product-wrap {
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	padding: 20px 20px 10px 20px;
+}
+.sidebar .similar-product-wrap h4 {
+	font-size: 16px;
+	color: #7a54cd;
+	line-height: 20px;
+}
+.sidebar .similar-product-wrap a {
+	color: #407cae;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+
+/* RELATED CAR LIST STYLE */
+.sidebar .relatated-car-list-wrap {
+	margin-top: 25px;
+}
+.sidebar .relatated-car-list-wrap hr {
+	border: 0px;
+	border: 4px solid #000;
+	margin-bottom: 15px;;
+}
+.sidebar .relatated-car-list-wrap .related-car-sale-wrap {
+	float: left;
+}
+.sidebar .relatated-car-list-wrap .related-car-sale-wrap h4 {
+	font-size: 12px;
+}
+.sidebar .logo-wrap {
+	text-align: right;
+}
+.sidebar .logo-wrap .powered-text {
+	font-size: 8px;
+	display: block;
+	margin-bottom:-2px;
+}
+.sidebar .logo-wrap a {
+	font-size: 12px;
+}
+.sidebar .logo-wrap a span {
+	color: #000;
+}
+.sidebar .logo-wrap .more-link {
+	font-size: 9px;
+	margin-top: 10px;
+}
+.sidebar .logo-wrap .more-link span {
+	font-size: 7px;
+}
+
+/* CAR LIST STYLE */
+.sidebar .relatated-car-list-wrap ul.car-list-wrap {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+.sidebar .relatated-car-list-wrap ul.car-list-wrap li {
+	list-style: none;
+	display: block;
+	float: left;
+	width: 120px;
+}
+.sidebar .relatated-car-list-wrap ul.car-list-wrap li a.car-title {
+	font-size: 12px;
+	margin-top: 5px;
+	color: #4b4b4b;
+}
+.sidebar .relatated-car-list-wrap ul.car-list-wrap li h3 {
+	margin-top: 20px;
+	line-height: 8px;
+}
+.sidebar .relatated-car-list-wrap ul.car-list-wrap li span {
+	font-size: 8px;
+	text-transform: uppercase;
+}
